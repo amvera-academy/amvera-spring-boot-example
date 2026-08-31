@@ -15,6 +15,8 @@
 - `POST /api/items`
 - `DELETE /api/items/{id}`
 
+<img width="768" height="844" alt="image" src="https://github.com/user-attachments/assets/fc1630fd-5ef0-430b-9f77-efd570e63503" />
+
 ## Как правильно сохранять файлы
 
 Изменяемые данные сохраняются в `/data/items.json`. Это важно: если записывать файл не в `/data`, то при пересборке данные перезапишутся на состояние сборки. 
