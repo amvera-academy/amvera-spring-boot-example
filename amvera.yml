@@ -1,0 +1,16 @@
+---
+meta:
+  environment: jvm
+  toolchain:
+    name: maven
+    version: 21
+build:
+  image: null
+  args: clean package
+  artifacts:
+    target/*.jar: /
+run:
+  persistenceMount: /data
+  image: null
+  jarName: amvera-spring-boot-example-1.0.0.jar
+  containerPort: 5000
